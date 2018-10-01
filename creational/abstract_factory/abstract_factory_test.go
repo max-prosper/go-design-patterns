@@ -1,4 +1,4 @@
-package creational
+package abstract_factory
 
 import "testing"
 

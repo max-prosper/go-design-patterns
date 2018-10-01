@@ -1,4 +1,4 @@
-package creational
+package builder
 
 type BuildProcess interface {
 	SetWheels() BuildProcess
