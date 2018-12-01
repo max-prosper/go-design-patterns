@@ -22,7 +22,6 @@ func NewStringRequest(s string, wg *sync.WaitGroup) Request {
 			if !ok {
 				log.Fatal("Invalid casting to string")
 			}
-
 			fmt.Println(str)
 		},
 	}
@@ -44,7 +43,6 @@ func main() {
 	}
 
 	requests := 10
-
 	var wg sync.WaitGroup
 	wg.Add(requests)
 

@@ -35,7 +35,6 @@ func (w *PreffixSuffixWorker) uppercase(in <-chan Request) <-chan Request {
 		}
 		close(out)
 	}()
-
 	return out
 }
 
